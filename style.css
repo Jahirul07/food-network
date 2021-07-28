@@ -1,0 +1,87 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  display: block;
+  height: 35px;
+}
+p {
+  text-align: justify;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+.half-width {
+  width: 50%;
+  padding: 0 4%;
+}
+#top-img {
+  width: 80%;
+}
+.color-orange {
+  color: orange;
+}
+.order-button {
+  text-decoration: none;
+  background-image: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  color: white;
+  font-weight: 700;
+  padding: 15px 25px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.background-img {
+  background-image: url(images/7.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#middle-img {
+  width: 100%;
+  margin-top: 15px;
+}
+.text-align {
+  text-align: center;
+  align-items: center;
+}
+.text-align p {
+  text-align: center;
+}
+.galery-part-width {
+  width: 30%;
+  box-shadow: 5px 5px 15px gray;
+  margin: 0 2%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.galery-part-width img {
+  width: 100%;
+  border-radius: 10px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 2px 5px gray;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.footer-style {
+  height: 200px;
+  padding-top: 30px;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+}
+.footer-style p {
+  text-align: center;
+  color: white;
+}
+.color-gray {
+  color: gray;
+}
