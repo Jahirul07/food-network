@@ -41,6 +41,9 @@ p {
 .color-orange {
   color: orange;
 }
+.text-style {
+  padding-top: 70px;
+}
 .order-button {
   text-decoration: none;
   background-image: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
@@ -61,8 +64,8 @@ p {
   margin-top: 15px;
 }
 .text-align {
-  text-align: center;
   align-items: center;
+  text-align: center;
 }
 .text-align p {
   text-align: center;
